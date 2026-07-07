@@ -11,6 +11,25 @@ body.main-content {
 #image-gallery {
     text-align: left;
 }
+/* Search Bar Styles */
+#searchbar{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin:20px;
+}
+
+#searchbar input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+#searchbar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
 /* Navigation Bar */
 nav {
