@@ -9,13 +9,23 @@ body.main-content {
 
 /*alignment of the pictures*/
 #image-gallery {
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
+#image-gallery img {
+    max-width: 22%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* Search Bar Styles */
 #searchbar{
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: left;
     margin:20px;
 }
 
