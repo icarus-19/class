@@ -3,6 +3,8 @@ body.main-content {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
+    background-color: #85b0c9;
 }
 /* Navigation Bar */
 nav {
@@ -43,6 +45,6 @@ footer {
 }
 
 img {
-    max-width: 50%;
+    max-width: 20%;
     height: auto;
 }
