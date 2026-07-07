@@ -6,6 +6,12 @@ body.main-content {
     text-align: center;
     background-color: #85b0c9;
 }
+
+/*alignment of the pictures*/
+#image-gallery {
+    text-align: left;
+}
+
 /* Navigation Bar */
 nav {
     background-color: #333;
